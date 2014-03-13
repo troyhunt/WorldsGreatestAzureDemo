@@ -45,6 +45,14 @@ p
   background-color: rgba(0,0,0,.4) !important;
 }
 
+  .btn-sm:hover,
+  .btn-sm:focus
+  {
+    background-color: #28c3ab !important;
+    color: #000;
+  }
+
+
 @media(min-width:767px)
 {
   p
