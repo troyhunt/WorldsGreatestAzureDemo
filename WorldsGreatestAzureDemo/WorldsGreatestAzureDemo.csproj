@@ -125,6 +125,7 @@
     <Content Include="Content\grayscale.css" />
     <Content Include="Content\Images\downloads-bg.jpg" />
     <Content Include="Content\Images\intro-bg.jpg" />
+    <Content Include="Content\Images\PluralsightLogo.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

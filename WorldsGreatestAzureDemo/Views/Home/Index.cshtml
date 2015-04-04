@@ -39,7 +39,7 @@
           </li>
           <li class="page-scroll">
             <a href="#more">More</a>
-          </li> 
+          </li>
           <li class="page-scroll">
             <a href="#contact">Contact</a>
           </li>
@@ -54,6 +54,10 @@
           <div class="col-md-8 col-md-offset-2">
             <h1 class="brand-heading">The World's Greatest Azure Demo</h1>
             <p class="intro-text">All the awesome wrapped up into a one hour superdemo</p>
+            <a class="pluralsight" href="http://www.pluralsight.com/courses/modernizing-websites-microsoft-azure">
+              <p><img src="/Content/Images/PluralsightLogo.svg" alt="Pluralsight Logo" style="width: 300px; height: 57px;" /></p>
+              <p>Now also available as a complete five and a half hour course on Pluralsight!</p>
+            </a>
             <div class="page-scroll">
               <a href="#about" class="btn btn-circle">
                 <i class="fa fa-angle-double-down animated"></i>
@@ -71,6 +75,7 @@
         <p>I do a lot of demos. I write a lot of blog posts. Thing is though, none of them really sell the whole Azure picture; the BIG picture.</p>
         <p>The superdemo was designed to cover as much as possible in one hour. (Ok, it wouldn't all fit in an hour so you get an hour twenty something.) It's the demo for people who don't quite know what this Azure thing is and probably aren't quite up to speed on the whole cloud idea either.</p>
         <p>This is an hour and a bit of barely-edited &quot;making real stuff happen&quot; back-to-back demos of the important things you need to understand about websites, VMs and SQL Azure.</p>
+        <p>Because this demo has been so well received, as of April 2015 it's now also available as a full on Pluralsight course titled <a class="pluralsight" href="http://www.pluralsight.com/courses/modernizing-websites-microsoft-azure">Modernizing Your Websites with Azure Platform as a Service</a>.</p>
       </div>
     </div>
   </section>
@@ -138,12 +143,14 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   @Scripts.Render("/bundles/greyscale")
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-48993508-1', 'worldsgreatestazuredemo.com');
-  ga('send', 'pageview');
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-48993508-1', 'worldsgreatestazuredemo.com');
+    ga('send', 'pageview');
   </script>
 </body>
 </html>

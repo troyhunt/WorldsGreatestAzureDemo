@@ -53,6 +53,16 @@ p
   }
 
 
+.intro-body a.pluralsight
+{
+  color: #fff;
+}
+
+  a.pluralsight:hover, #about a.pluralsight
+  {
+    color: #ED652E;
+  }
+
 @media(min-width:767px)
 {
   p
