@@ -212,7 +212,9 @@ a
 
   .brand-heading
   {
-    font-size: 100px;
+    font-size: 65px;
+    padding: 0 95px;
+    margin-top: 20px;
   }
 
   .intro-text
