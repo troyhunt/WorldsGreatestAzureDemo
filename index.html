@@ -1,6 +1,5 @@
-﻿@{
-  ViewBag.Title = "Home Page";
-}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +9,12 @@
   <meta name="author" content="">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <title>The World's Greatest Azure Demo</title>
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  @Styles.Render("~/Content/css")
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="Content/grayscale.css" rel="stylesheet"/>
+
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -23,7 +23,7 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
           <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="http://www.troyhunt.com">
+        <a class="navbar-brand" href="https://www.troyhunt.com">
           <i class="fa fa-play-circle"></i> troyhunt<span class="light">.com</span>
         </a>
       </div>
@@ -55,7 +55,7 @@
           <div class="col-md-8 col-md-offset-2">
             <h1 class="brand-heading">The World's Greatest Azure Demo</h1>
             <a class="pluralsight" href="http://www.pluralsight.com/courses/modernizing-websites-microsoft-azure">
-              <p><img src="/Content/Images/PluralsightLogo.svg" alt="Pluralsight Logo" style="width: 463px; height: 100px;" /></p>
+              <p><img src="Content/Images/PluralsightLogo.svg" alt="Pluralsight Logo" style="width: 463px; height: 100px;" /></p>
               <p>Now also available as a complete five and a half hour course on Pluralsight!</p>
             </a>
             <div class="page-scroll">
@@ -111,7 +111,7 @@
         <p><a href="http://pluralsight.com/training/Courses#windows-azure">Pluralsight:</a> Hardcore developer and IT video training by the pros with <em>heaps</em> of Azure material</p>
         <p><a href="http://social.msdn.microsoft.com/Forums/windowsazure/en-US/home?category=windowsazureplatform%2Cazuremarketplace%2Cwindowsazureplatformctp">Azure Support Forum:</a> Learn by reading the challenges others are facing &mdash; no really, read these, you'll learn heaps</p>
         <p><a href="http://stackoverflow.com/questions/tagged/azure">Stack Overflow Azure tag:</a> Same deal &mdash; read these, learn heaps</p>
-        <p><a href="http://weblogs.asp.net/scottgu/">Scott Gu's blog:</a> It's all Azure lately and it's all good &mdash; get the good word on what's new from the man himself</p>
+        <p><a href="https://weblogs.asp.net/scottgu/">Scott Gu's blog:</a> It's all Azure lately and it's all good &mdash; get the good word on what's new from the man himself</p>
       </div>
     </div>
   </section>
@@ -119,8 +119,8 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <h2>Contact</h2>
-        <p>For general discussion on the superdemo, head on over to <a href="http://www.troyhunt.com/2014/03/the-worlds-greatest-azure-demo.html">the blog post on it at troyhunt.com</a>. Alternatively, get me on any of the things below.</p>
-        <p><a href="mailto:troyhunt@hotmail.com">troyhunt@hotmail.com</a></p>
+        <p>For general discussion on the superdemo, head on over to <a href="https://www.troyhunt.com/2014/03/the-worlds-greatest-azure-demo.html">the blog post on it at troyhunt.com</a>. Alternatively, get me on any of the things below.</p>
+        <p><a href="/cdn-cgi/l/email-protection#becaccd1c7d6cbd0cafed6d1cad3dfd7d290ddd1d3"><span class="__cf_email__" data-cfemail="0377716c7a6b766d77436b6c776e626a6f2d606c6e">[email&#160;protected]</span></a></p>
         <ul class="list-inline banner-social-buttons">
           <li>
             <a href="https://twitter.com/troyhunt" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -138,10 +138,12 @@
       </div>
     </div>
   </section>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  @Scripts.Render("/bundles/greyscale")
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="Scripts/jquery-2.1.0.js"></script>
+  <script src="Scripts/grayscale.js"></script>
+
   <script>
     (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
